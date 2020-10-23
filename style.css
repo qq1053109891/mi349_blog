@@ -1,0 +1,52 @@
+html {
+    background: #e3e3e3;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    padding: 40px;
+    color: black;
+    border-top: 10px solid black;
+    background: #fff; 
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+
+}
+
+p {
+    line-height: 1.4em;
+
+}
+
+
+#Rainbow2 {
+    border-top: 1px dotted #ccc;
+}
+
+.section-heading {
+    border-bottom: 1px dotted #ccc;
+}
+
+#Rainbow {
+    margin: 5px;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+}
+
+#Detroit2 {
+    margin: 5px;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+}
+
+.burndown {
+    margin: 10px;
+    font-size: 30px;
+    color: blue;
+}
