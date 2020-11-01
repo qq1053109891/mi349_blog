@@ -1,52 +1,169 @@
 html {
-    background: #e3e3e3;
+  background: #e3e3e3;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 40px;
-    padding: 40px;
-    color: black;
-    border-top: 10px solid black;
-    background: #fff; 
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 40px;
+  padding: 40px;
+  color: black;
+  border-top: 10px solid black;
+  background: #fff;
 }
 
 h1 {
-    font-size: 3em;
-    margin: 0;
-
+  font-size: 3em;
+  margin: 0;
 }
 
 p {
-    line-height: 1.4em;
-
-}
-
-
-#Rainbow2 {
-    border-top: 1px dotted #ccc;
+  line-height: 1.4em;
+  font-size: 16px;
 }
 
 .section-heading {
-    border-bottom: 1px dotted #ccc;
+  border-bottom: 1px dotted #ccc;
+  font-size: 20px;
+  font-weight: bolder;
 }
 
 #Rainbow {
-    margin: 5px;
-    font-weight: bold;
-    font-size: 30px;
-    color: black;
+  margin: 5px;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
 }
 
 #Detroit2 {
-    margin: 5px;
-    font-weight: bold;
-    font-size: 30px;
-    color: black;
+  margin: 5px;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
 }
 
 .burndown {
-    margin: 10px;
-    font-size: 30px;
-    color: blue;
+  margin: 10px;
+  font-size: 30px;
+  color: blue;
+  padding: 0;
+}
+
+.burndown li {
+  font-size: 14px;
+  list-style-type: none;
+  line-height: 35px;
+  height: 35px;
+  background: #fff;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 999;
+}
+
+.nav-menu {
+  height: 40px;
+  width: 100%;
+  background: #F6D565;
+}
+
+.nav-menu ul {
+  display: flex;
+  background: #000;
+}
+
+.nav-menu ul li {
+  flex: 0 auto;
+  width: 140px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.nav-menu ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.content .item {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.content .item .caption {
+  position: relative;
+}
+
+.content .item .caption img {
+  width: 100%;
+}
+
+.content .item .caption .text {
+  position: absolute;
+  bottom: 5px;
+  z-index: 99999;
+  width: 99.3%;
+  left: 0;
+  color: #fff;
+  line-height: 40px;
+  padding-left: 12px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.back {
+  background: #000;
+  color: #fff;
+  float: right;
+  padding: 20px;
+}
+
+.about {
+  display: flex;
+}
+
+.about .a0-item {
+  flex: 1 auto;
+  padding: 20px 30px;
+}
+
+.wrapper {
+  list-style-type: none;
+  padding: 0;
+  border-radius: 3px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: flex-start;
+  padding: .5em;
+  position: relative;
+}
+
+.form-row span {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+
+.form-row > label {
+  padding: .5em 1em .5em 0;
+  flex: 1;
+}
+
+.form-row > input, .form-row > textarea {
+  flex: 6;
+}
+
+.form-row > input,
+.form-row > button, .form-row > textarea {
+  padding: .5em;
+}
+
+.form-row > button {
+  background: gray;
+  color: white;
+  border: 0;
 }

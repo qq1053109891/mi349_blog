@@ -4,40 +4,72 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <a href="index.html">Click here back to Blog</a>
-    <section>
+    <a href="index.html" class="back">Click here back to Blog</a>
+    <section class="contact">
       <h3>Contact Me</h3>
-      <form>
+      <form >
+
+        <div class="wrapper">
+           <div class="form-row">
         <label
-          >Name:
-          <input type="text" />
-        </label>
-        <br />&#8593;Please put your name here
-      </form>
-      <form>
+          >Name:</label>
+          <input placeholder=" &#8593;Please put your name here" type="text" />
+        
+
+
+      </div>
+     
+ <div class="form-row">
         <label
-          >Email:
-          <input type="text" />
-        </label>
-        <br />&#8593;Please put your email here
-      </form>
-      <form>
+          >Email:  </label>
+          <input placeholder="&#8593;Please put your email here" type="text" />
+      
+     
+      </div>
+  
+    <div class="form-row">
         <label
-          >Reason for contact: <br /><textarea
+          >Reason for contact:  </label>
+          <textarea placeholder="&#8593;Please put your Reason for contact here"
             name="message"
             rows="5"
             cols="30"
           ></textarea>
-        </label>
-      </form>
-      <form>
-        <label
-          >Comment <br /><textarea name="message" rows="6" cols="50"></textarea>
-        </label>
+      
+
+      </div>
+  
+
+        <div class="form-row">
+          
+          <label
+          >Comment </label>
+          <textarea placeholder="&#8593;Please put your Comment here" name="message" rows="6" cols="50"></textarea>
+        </div>
+        
+
+
+
+    <div class="form-row">
+        <label > </label>
+      <button type="submit">Submit</button>
+    </div>
+
+        </div>
+
+            
+
       </form>
     </section>
-    <br /><button>Submit</button>
+
+
+
+
+
+
+
   </body>
 </html>
