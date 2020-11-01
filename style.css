@@ -93,7 +93,7 @@ p {
 }
 
 .content .item .caption {
-  position: relative;
+  position: sticky;
 }
 
 .content .item .caption img {
