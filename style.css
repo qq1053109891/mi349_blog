@@ -167,3 +167,13 @@ p {
   color: white;
   border: 0;
 }
+
+
+ @media (max-width: 400px) {
+            h1,h2,h4,h5,h6 {
+                 color:orange;
+            }
+			p{
+				color:red;
+			}
+        }
